@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.discover{
+    display: flex;
+}
+.home{
+    display: flex;
+}
+.home li{
+    list-style: none;
+    padding-right: 35px;
+    text-align: center;
+    margin-top: 14px;
+}
+.home li a{
+    text-decoration: none;
+    color: gray;
+}
+.signin a{
+    text-decoration: none;
+    padding-right: 30px;
+}
+.linkedin h1{
+    color: rgba(23, 23, 95, 0.952);
+    font-size: 40px;
+}
+.home{
+    border-right: 1px solid gray;
+}
+.signin{
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+}
+.signin button{
+    padding: 15px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 35px;
+}
+.signin button a{
+    color: blue;
+}
+.signin span a{
+    color: gray;
+}
+.mid{
+    display: flex;
+    margin-top: 55px;
+}
+.mid .form{
+    width: 50%;
+}
+.image{
+    background-image: url("image/Linkedin.svg");
+    width: 50%;
+    height: 550px;
+    background-size: cover;
+}
+.form h1{
+    font-size: 60px;
+    color: rgba(79, 20, 20, 0.76);
+}
+.form{
+    width: 50%;
+    margin-left: 155px;
+    padding-top: 20px;
+}
+form input{
+    margin-top: 20px;
+    height: 54px;
+    width: 400px;
+    padding-left: 10px;
+}
+.one{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  display: inline-block;
+  margin-top: 10px;
+}
+.two{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(23, 23, 95, 0.952);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    /* padding: 14px; */
+    border-radius: 40px;
+    height: 47px;
+    width: 114px;
+    padding-left: 28px;
+    padding-top: 12px;
+}
+.three{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: gray;
+    padding: 20px;
+    padding-right: 200px;
+}
+.four{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: gray;
+    padding: 20px;
+    padding-right: 162px;
+}
+.mid2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.topic h1{
+    font-size: 50px;
+    margin-left: 160px;
+    width: 550px;
+}
+.content{
+    transition: all 2s;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.cont{
+    list-style: none;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+.content .cont a{
+    text-decoration: none;
+    color: black;    
+}
+.content ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont1{
+    list-style: none;
+    font-size: 30px;
+     color: blue;
+    border: 1px solid  rgba(23, 23, 95, 0.952) ;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+.content .cont1 a{
+    text-decoration: none;
+}
+.content .cont a:hover{
+    color: blue;
+    padding-left: 10px;
+}
+.content .cont1 a:hover{
+    color: blue;
+    padding-left: 10px;
+}
+.mid3{
+    display: flex;
+    margin-top: 80px;
+}
+.content1 h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.topic1 h1{
+    font-size: 50px;
+    margin-left: 160px;
+    width: 550px;
+}
+.five{
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color:black ;
+}
+.mid4{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.mid4 h1{
+    font-size: 50px;
+    margin-left: 160px;
+    width: 550px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: red;
+}
+.mid4 a{
+    margin-right: 600px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid blue;
+    margin-top: 123px;
+    margin-bottom: 163px;
+    padding: 10px;
+    border-radius: 20px;
+    color: blue;
+}
+.mid5{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.mid5 .image2{
+    background-image: url("image/Linkedin2\ \(2\).png");
+    height: 497px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 320px;
+}
+.about{
+    margin-left: 200px;
+    width: 50%;
+}
+.about h1{
+    color:rgba(79, 20, 20, 0.76) ;
+    width: 90%;
+    font-size: 36px;
+    margin-left: 90px;
+}
+.about p{
+    font-size: 26px;
+    width: 59%;
+    margin-top: 20px;
+    margin-left: 90px;
+}
