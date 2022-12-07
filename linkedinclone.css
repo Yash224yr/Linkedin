@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.left{
+    width: 45%;
+    padding: 0;
+}
+.right{
+    width: 55%;
+}
+.feature{
+    display: flex;
+    padding: 5rem 17rem;
+}
+#topic{
+    background-color: #cdc1ff;
+}
+.feature ul{
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap ;
+}
+#topic h1{
+    padding-right: 10rem;
+}
+.feature h1{
+    font-size: 36px;
+    line-height: 57px;
+}
+.feature li{
+    border: 1px solid #343a40;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px 13px;
+}
+.feature .right h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: gray;
+}
+#post{
+    background-color: rgba(245, 222, 179, 0.471);
+}
+#post .left h1{
+    margin-right: 10px;
+    color: red;
+}
+#post li{
+    border: 1px solid blue;
+    color: blue;
+    margin-top: 47px;
+    padding: 15px;
+    direction: flex
+}
+#work{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #e5d9f2;;
+}
+#work .left, #work .right{
+    width: 50%;
+}
+#work .right img{
+    width: 350px;
+}
+#work .left{
+    padding-right: 15px;
+    padding-top: 58px;
+}
+#work .left h1{
+    color: #8f4859;
+}
+#work .left p{
+    font-size: 20px;
+    padding-top: 10px;
+}
